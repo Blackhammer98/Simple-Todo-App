@@ -6,7 +6,7 @@ import { Todo } from './components/Todos'
 import { useState } from 'react'
 
 function App() {
-  const [todos , setTodos] = useState([])
+  
   
 
 
@@ -20,7 +20,7 @@ function App() {
     <>
       <div>
        <CreateTodo></CreateTodo>
-       <Todo todos={todos}></Todo>
+       <Todo></Todo>
       </div>
      
     </>
